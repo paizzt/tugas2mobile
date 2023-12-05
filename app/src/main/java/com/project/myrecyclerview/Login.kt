@@ -18,7 +18,7 @@ class Login : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.loginButton.setOnClickListener(View.OnClickListener {
-            if (binding.username.text.toString() == "zuhair" && binding.password.text.toString() == "123"){
+            if (binding.username.text.toString() == "paiz" && binding.password.text.toString() == "123"){
                 Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this@Login, MainActivity::class.java))
             } else {
